@@ -1,9 +1,9 @@
 CREATE TABLE congress_persons (
-    office_room varchar(10) NOT NULL Primary key,
-	name char(20) NOT NULL,
-    district_represented char(5) NOT Null,
-    start_date DATE DEFAULT SYSDATE NOT NULL,
-    political_party varchar(1) CHECK (political_party IN ('D', 'R', 'L', 'O')),
-    state_represented varchar(20),
-    FOREIGN KEY (state_represented) REFERENCES us_states(us_state)
+	room_number INT NOT NULL Primary key,
+	full_name VARCHAR(100) NOT NULL,
+	district VARCHAR(5) NOT Null,
+	start_date DATE DEFAULT SYSDATE NOT NULL,
+	party VARCHAR(1) DEFAULT 'O' CHECK (party IN ('D', 'R', 'L', 'O')),
+	state_represented VARCHAR(50),
+	FOREIGN KEY (state_represented) REFERENCES us_states(us_state)
 );

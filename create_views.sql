@@ -1,5 +1,6 @@
 CREATE VIEW sponsored_bills AS
-SELECT c.cosponsor_name "CONGRESS PERSON", cp.room_number "CONGRESS PERSON ROOM NUMBER", b.bill_name "BILL SPONSORED",  cp.party "CONGRESS PERSON PARTY"
+SELECT c.cosponsor_name "CONGRESS PERSON", cp.room_number "CONGRESS PERSON ROOM NUMBER",
+    b.bill_name "BILL SPONSORED", cp.party "CONGRESS PERSON PARTY"
 FROM bills b INNER JOIN cosponsors c
 ON b.bill_name = c.bill_name
 INNER JOIN congress_persons cp

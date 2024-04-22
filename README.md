@@ -8,7 +8,7 @@ An sql data base for the  House of Representatives in the United States, specifi
 ### A real hard working duo
 I loved working with this man
 Momen Ahmed [his git](https://github.com/moe-the-techie)
-Philopater Waheed [hiw git](https://github.com/philopaterwaheed)
+Philopater Waheed [his git](https://github.com/philopaterwaheed)
 
 <br>
 <p align=left> 

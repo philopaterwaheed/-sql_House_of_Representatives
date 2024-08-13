@@ -2,7 +2,7 @@
 An sql data base for the  House of Representatives in the United States, specification provided by Cairo University Faculty of Science for the Database Design Course (CS307) for the fall semester of 2023.
 
 
-![EDR](https://i.ibb.co/WWjbNXy/EDR-for-House-of-Representatives-SCI-Project-2.webp)
+![EDR](https://media.discordapp.net/attachments/1183246409034629294/1183280579685400616/EDR_for_House_of_Representatives_-_SCI_Project_2.jpeg?ex=66bb992a&is=66ba47aa&hm=39a06535c0dbbac4688f8a97f998b5c11a056e9d4f8516d03d5f83783f475f7d&=&format=webp&width=1132&height=662)
 
 ## Team
 ### A real hard working duo
